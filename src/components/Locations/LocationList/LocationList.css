@@ -1,0 +1,75 @@
+@font-face {
+  font-family: "Confortaa";
+  src: local("Confortaa"),
+ url("../../../Fonts/Comfortaa-Regular.ttf") format("truetype")
+}
+.SheetModal{
+  overflow: auto;
+  z-index: 1;
+}
+
+.Body{
+  display: flex;
+  flex-direction: column;
+  gap: 3em;
+  width: 100%;
+  height: fit-content;
+  background-color: #171E30;
+  justify-content: center;
+  align-content: center;
+  overflow: auto;
+}
+.FilterModal{
+  align-self: center;
+  width: 80%;
+}
+.list-grid {
+  align-self: center;
+  justify-self: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(12em, 4fr));
+  max-width: 80vw;
+  gap: 8em;
+  background-color: #171E30;
+  height: fit-content;
+  border-radius: 2em;
+  padding-right: 2em;
+  width: 100%;
+  height: 100%;
+  color: #83D2E4;
+  font-family: 'Confortaa';
+}
+.locaName{
+  cursor: pointer;
+  transition: 0.5s;
+}
+.locaName:hover{
+  font-size: 1.4em;
+  text-shadow: 0 0 1em #8cff00;
+}
+
+.buttonslist{
+  display: flex;
+  align-self: center;
+  gap: 2em;
+}
+.Counter {
+  color: #83D2E4;
+  font-family: 'Confortaa';
+  align-self: center;
+  
+}
+.btnlist{
+  background-color: transparent;
+  border-radius: 8em;
+  color: #83D2E4;
+  font-family: 'Confortaa';
+  height: 3em;
+  align-self: center;
+  border: none;
+  cursor: pointer;
+}
+.btnlist:disabled{
+  color: #83d2e4ad;
+  cursor: default;
+}

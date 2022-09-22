@@ -1,0 +1,23 @@
+
+.Filters{ 
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 4fr));
+  gap: 1em;
+  width: 90%;
+  justify-content: center;
+}
+
+.Input{
+  color: #260069 ;
+  background-color: #83D2E4 ;
+  border: none;
+  border-radius: 8em;
+  align-self: center;
+  justify-self: center;
+  width: 50%;
+  padding: 8px;
+}
+.Label {
+  color: #83D2E4 ;
+  font-family: 'Confortaa';
+}

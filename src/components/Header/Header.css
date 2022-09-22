@@ -1,0 +1,52 @@
+@font-face{
+  font-family: "GetSwifty";
+  src: local("GetSwifty"),
+ url("../../Fonts/get_schwifty.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Confortaa";
+  src: local("Confortaa"),
+ url("../../Fonts/Comfortaa-Regular.ttf") format("truetype")
+}
+.All{
+  display: flex;
+  flex-direction: column;
+}
+.Title{
+  font-family: "GetSwifty";
+  color: #83D2E4 ;
+  text-shadow: 0 0 1em #8cff00;
+  align-self: center;
+  width: 100%;
+}
+.Header{  
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(500px, 2fr));
+  padding: 0.5em;
+  align-content: center;
+  justify-content: center;
+  align-self: center;
+  width: 100%;
+  margin-bottom: 10vh;
+  margin-left: 120px;
+  margin-right: 20vw;
+}
+.Options{
+  align-self: center;
+  display: flex;
+  justify-self: center;
+  align-content: center;
+  justify-content: center;
+  gap: 8vw;
+  margin-left: 20vw;
+  margin-right: 20vw;
+}
+.Optionsbtn{
+  background-color: transparent;
+  border: none;
+  color: #02CFFF;
+  font-family: "Confortaa";
+  font-size: 1.5em;
+  cursor: pointer;
+}

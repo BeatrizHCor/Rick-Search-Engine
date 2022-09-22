@@ -1,0 +1,30 @@
+@font-face {
+  font-family: "Confortaa";
+  src: local("Confortaa"),
+ url("../../../Fonts/Comfortaa-Regular.ttf") format("truetype")
+}
+
+.Cardchar {
+  height: 15vh;
+  width: 16em;
+  min-width: 10em;
+  min-height: 12em;
+  border: none;
+  background-color: transparent;
+  transition: 0.5s;
+  color: transparent;
+  font-family: 'Confortaa';
+  font-size: 0.8em;
+  
+}
+.CardImage {
+  height: 100%;
+  width: 100%;
+  
+  
+}
+
+.Cardchar:hover{
+  color: #83D2E4;
+  box-shadow: 0 0 1em 0.1em #006DB7;
+}

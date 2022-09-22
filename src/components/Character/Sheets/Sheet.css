@@ -1,0 +1,57 @@
+.SheetBody {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top:0;
+  width: 100%;
+  height: 100%;
+  background-color: #171E30;
+  overflow-y: auto;
+}
+.top-side{
+  width: 100%;
+  align-self: center;
+}
+.LocaButton{
+  display: flex;
+  flex-direction: column;
+}
+.SheetImage{
+  width: 100%;
+  max-width: 500px;
+  max-height: 50vh;
+  min-width: 180px;
+  min-height: 200px;
+  align-self: center;
+}
+.Info{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 2fr));
+  font-size: 1.3em;
+  color: #83D2E4;
+  font-family: 'Confortaa';
+  gap: 1em;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  width: 100%;
+  align-self: center;
+}
+.Info::-webkit-scrollbar{
+  border: none;
+}
+.icon {
+  position: absolute;
+  z-index: 2;
+  background-color: transparent;
+  color: #460BFF;
+  border: none;
+  width: fit-content;
+  cursor: pointer;
+}
+.icon2 {
+  background-color: transparent;
+  color: #460BFF;
+  border: none;
+  width: fit-content;
+  cursor: pointer;
+}

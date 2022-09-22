@@ -1,0 +1,31 @@
+.topSide{
+  display: grid;
+  font-size: 1.3em;
+  color: #83D2E4;
+  font-family: 'Confortaa';
+  gap: 1vh;
+  margin: 1.5em;
+  max-height: 50vh;
+}
+
+.ResidentsTitle{
+  margin: 1em;
+  font-size: 3em;
+  color: #460BFF  ;
+  font-family: 'Confortaa';
+}
+.iconposition{
+position: absolute;
+
+}
+
+.residentsGrid{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 2fr));
+  font-size: 1.3em;
+  color: #83D2E4;
+  font-family: 'Confortaa';
+  gap: 1em;
+  align-self: center;
+  overflow-y: auto;
+}
